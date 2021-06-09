@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Grogu{% endblock %}
+
+{% block body %}
+
+    <section class="home_container">
+        <div class="container home_content">
+            <div class="home_content_left">
+                <h2>Bienvenue sur le <span>Grogu</span></h2>
+                <p class="baseline">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto
+                    deserunt fugiat hic itaque pariatur repudiandae voluptatem! Fuga ipsa quae quibusdam.</p>
+                <div class="button_container">
+                    <a class="grogu_button" href="#">Se connecter</a>
+                    <a class="grogu_button" href="#">Nous contacter</a>
+                </div>
+            </div>
+            <div class="home_content_right">
+                <img src="{{ asset('images/kadoc.png') }}" alt="image représentant le personnage Kadoc">
+            </div>
+        </div>
+    </section>
+{% endblock %}

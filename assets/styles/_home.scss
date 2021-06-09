@@ -1,0 +1,42 @@
+.home_container{
+  display: flex;
+  padding: 15vh 2rem;
+
+  .home_content{
+    display: flex;
+
+    .home_content_left{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      h2{
+        margin-bottom: 2rem;
+      }
+      .baseline{
+
+      }
+
+      .button_container{
+        margin-top: 5rem;
+        display: flex;
+
+
+        .grogu_button:first-child{
+          margin-right: 2rem;
+        }
+      }
+
+    }
+    .home_content_right{
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img{
+        width: 400px;
+      }
+    }
+  }
+}
